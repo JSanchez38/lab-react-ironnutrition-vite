@@ -17,7 +17,7 @@ function FoodBox({ food, onDelete }) {
         <p>Servings {food.servings}</p>
 
         <p>
-            <b>Total Calories: {food.servings} * {food.calories} </b> kcal
+            <b>Total Calories: {food.servings * food.calories} </b> kcal
         </p>
 
         <button onClick={handleDelete}>Delete</button>
